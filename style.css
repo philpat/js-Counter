@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.counter-div{
+    width: 40rem;
+    border: 1px solid #fff;
+    padding: 1rem;
+    background-color: rgb(34, 34, 250);
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+.counter-div > *{
+    margin-bottom: 3rem;
+}
+.count{
+    font-size: 4rem;
+}
+.buttons button{
+    padding: 1rem;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button.add{
+    background-color:green ;
+}
+button.reset{
+    background-color: #fff;
+    color: black;
+}
+button.subtract{
+    background-color: orangered;
+}
+.next{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+a.btn{
+    padding: 1rem;
+    background-color: blueviolet;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 15px 0 ;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 2rem 0;
+    text-decoration: none;
+}
+.color{
+    border: 1px solid #fff;
+    padding: 0 1rem;
+    font-size: 4rem;
+}
+.buttons .generate{
+    color: #000;
+}
+
